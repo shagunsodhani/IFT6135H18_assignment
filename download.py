@@ -23,7 +23,6 @@ if __name__ == '__main__':
                         choices=['mnist'],
                         help='dataset name')
     parser.add_argument('--savedir', type=str, default='datasets', 
-                        choices=['mnist'],
                         help='directory to save the dataset')
     
     args = parser.parse_args()
